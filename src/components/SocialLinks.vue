@@ -1,9 +1,9 @@
 <template>
   <v-container
     ><v-row
-      ><v-col cols="6" class="my-4 flex gap-5 align-center ml-10"
+      ><v-col cols="12" lg="4" class="my-4 flex gap-5 align-center ml-10"
         ><h1
-          class="text-3xl text-sky-700 mb-6 text-center"
+          class="text-3xl mt-4 text-sky-700 mb-6 text-center"
           style="font-size: 50px; font-weight: bold"
         >
           I'm
