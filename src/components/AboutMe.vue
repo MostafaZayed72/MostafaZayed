@@ -7,6 +7,10 @@
             About Me
           </h3></v-col
         ><v-col cols="12"
+          ><p class="text-center text-xl text-sky-700">
+            I'm Mostafa Zayed a web developer
+          </p></v-col
+        ><v-col cols="12"
           ><p class="text-green-600 text-center">
             I am a UI/UX developer and software engineer specialized in building
             web applications. I have experience in technologies such as Vue.js,
