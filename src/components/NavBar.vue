@@ -1,7 +1,7 @@
 <template>
   <div
     class="container grid grid-cols-1 bg-slate-200 h-16 mx-auto shadow-2xl"
-    style="position: relative"
+    style="position: fixed; z-index: 10"
   >
     <v-container
       ><v-row
@@ -19,25 +19,25 @@
             <ul class="flex gap-20">
               <li
                 class="hover:translate-y-1 hover:bg-green-200 duration-700"
-                style="cursor: pointer"
+                style="cursor: pointer; font-weight: bold"
               >
                 Home
               </li>
               <li
                 class="hover:translate-y-1 hover:bg-green-200 duration-700"
-                style="cursor: pointer"
+                style="cursor: pointer; font-weight: bold"
               >
                 About
               </li>
               <li
                 class="hover:translate-y-1 hover:bg-green-200 duration-700"
-                style="cursor: pointer"
+                style="cursor: pointer; font-weight: bold"
               >
                 Services
               </li>
               <li
                 class="hover:translate-y-1 hover:bg-green-200 duration-700"
-                style="cursor: pointer"
+                style="cursor: pointer; font-weight: bold"
               >
                 Portfolio
               </li>

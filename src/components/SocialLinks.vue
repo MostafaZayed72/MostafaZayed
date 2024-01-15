@@ -1,6 +1,6 @@
 <template>
   <v-container
-    ><v-row
+    ><v-row style="margin-top: 100px"
       ><v-col cols="12" lg="4" class="my-4 flex gap-5 align-center ml-10"
         ><h1
           class="text-3xl mt-4 text-sky-700 mb-6 text-center"
