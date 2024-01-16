@@ -8,7 +8,8 @@
           </h3></v-col
         ><v-col cols="12"
           ><p class="text-center text-xl text-sky-700">
-            I'm Mostafa Zayed a web developer
+            I'm <span class="text-green-600">Mostafa Zayed</span> a web
+            developer
           </p></v-col
         ><v-col cols="12"
           ><p class="text-green-600 text-center">

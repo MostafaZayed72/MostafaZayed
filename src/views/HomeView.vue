@@ -1,7 +1,9 @@
 <template>
-  <NavBar />
-  <SocialLinks />
-  <AboutMe />
+  <div class="container mx-auto">
+    <NavBar />
+    <SocialLinks />
+    <AboutMe />
+  </div>
 </template>
 
 <script setup>
