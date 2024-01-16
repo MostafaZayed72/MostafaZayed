@@ -75,18 +75,33 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.removeEventListener("resize", checkScreenWidth);
 });
+
 const isLightMode = ref(true);
+const icon = ref("mdi-lightbulb-on");
+
+onMounted(() => {
+  const savedMode = localStorage.getItem("themeMode");
+  if (savedMode !== null) {
+    isLightMode.value = savedMode === "light";
+  }
+  updateBodyClass();
+});
 
 const toggleMode = () => {
   isLightMode.value = !isLightMode.value;
   icon.value = isLightMode.value ? "mdi-lightbulb-on" : "mdi-lightbulb-outline";
+  updateBodyClass();
+
+  localStorage.setItem("themeMode", isLightMode.value ? "light" : "dark");
+};
+
+const updateBodyClass = () => {
   if (isLightMode.value) {
     document.body.classList.remove("dark-mode");
   } else {
     document.body.classList.add("dark-mode");
   }
 };
-const icon = ref("mdi-lightbulb-on");
 </script>
 
 <style>
